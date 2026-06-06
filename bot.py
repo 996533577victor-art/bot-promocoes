@@ -85,9 +85,9 @@ print("Bot iniciado! Postando promoções...")
 while True:
     try:
         postar_shopee()
-        time.sleep(1800)
+        time.sleep(180)
         postar_shein()
-        time.sleep(1800)
+        time.sleep(180)
     except Exception as e:
         print(f"Erro: {e}")
         time.sleep(60)
